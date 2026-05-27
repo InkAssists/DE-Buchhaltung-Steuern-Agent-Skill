@@ -1,0 +1,4 @@
+interface:
+  display_name: "Finance V1 Public"
+  short_description: "Bookkeeping and ELSTER prep helper"
+  default_prompt: "Use $finance-v1-public to summarize a sanitized ledger for ELSTER prep."
