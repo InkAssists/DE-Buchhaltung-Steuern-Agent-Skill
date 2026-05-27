@@ -1,4 +1,4 @@
 interface:
-  display_name: "Buchhaltungs- und Steuerhelfer"
-  short_description: "Buchhaltung, Archivierung, ELSTER-Hilfe und gog"
-  default_prompt: "Use $buchhaltungs-steuerhelfer to archive a receipt or summarize a sanitized ledger for ELSTER prep."
+  display_name: "Bookkeeping and Tax Helper"
+  short_description: "Bookkeeping, archiving, ELSTER help, and gog"
+  default_prompt: "Use $bookkeeping-tax-helper to archive a receipt or summarize a sanitized ledger for ELSTER prep."
