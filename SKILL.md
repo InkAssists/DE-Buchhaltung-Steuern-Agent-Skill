@@ -5,7 +5,7 @@ description: Öffentlicher Buchhaltungs- und Steuerhelfer für deutsche Unterneh
 
 # Buchhaltungs- und Steuerhelfer
 
-Use this skill for Buchhaltung, Belegarchivierung und ELSTER-Vorbereitung für deutsche Unternehmer.
+Use this OpenClaw/Hermes skill for Buchhaltung, Belegarchivierung und ELSTER-Vorbereitung für deutsche Unternehmer.
 
 ## Prerequisites
 
