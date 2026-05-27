@@ -1,4 +1,4 @@
 interface:
-  display_name: "Finance V1 Public"
-  short_description: "Bookkeeping, archiving, and ELSTER prep"
-  default_prompt: "Use $finance-v1-public to archive a document or summarize a sanitized ledger for ELSTER prep."
+  display_name: "Buchhaltungs- und Steuerhelfer"
+  short_description: "Buchhaltung, Archivierung und ELSTER-Hilfe"
+  default_prompt: "Use $buchhaltungs-steuerhelfer to archive a receipt or summarize a sanitized ledger for ELSTER prep."

@@ -1,19 +1,19 @@
 ---
-name: finance-v1-public
-description: Public bookkeeping and ELSTER prep helper for sanitized ledgers, receipts, and month summaries.
+name: buchhaltungs-steuerhelfer
+description: Öffentlicher Buchhaltungs- und Steuerhelfer für deutsche Unternehmer mit sicheren, anonymisierten Ledgern, Belegen und Monatsauswertungen.
 ---
 
-# Finance V1 Public
+# Buchhaltungs- und Steuerhelfer
 
-Use this skill for sanitized bookkeeping workflows, document archiving, and ELSTER preparation.
+Use this skill for Buchhaltung, Belegarchivierung und ELSTER-Vorbereitung für deutsche Unternehmer.
 
 ## When to use
 
-- Classifying receipts, ledger rows, and booking months
-- Reviewing VAT treatment and review status
-- Summarizing a month for ELSTER prep
-- Archiving receipts and supporting documents without exposing private folder IDs or account data
-- Preparing public-friendly bookkeeping templates and checks
+- Belege, Einnahmen, Ausgaben und Buchungsmonate erfassen
+- VAT-/USt-Behandlung und Review-Status prüfen
+- Einen Monat für ELSTER aufbereiten
+- Belege und unterstützende Dokumente archivieren, ohne private Ordner-IDs oder Kontodaten offenzulegen
+- Öffentliche Vorlagen und Prüfregeln für Buchhaltung und Steuerhilfe nutzen
 
 ## Use only public-safe data
 
