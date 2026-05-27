@@ -1,0 +1,2 @@
+receipt_id,entry_type,receipt_date,booking_month,counterparty,description,main_category,sub_category,gross_amount,net_amount,tax_amount,tax_rate,tax_treatment,currency,country,payment_method,file_path,review_status,business_purpose,trip_route,vehicle_reference,hospitality_participants,hospitality_occasion,invoice_number,customer_name,notes
+

@@ -1,0 +1,16 @@
+__pycache__/
+.venv/
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.tmp
+*.bak
+
+# Private working data stays out of the public repo.
+private/
+data/
+receipts/
+reports/generated/
+

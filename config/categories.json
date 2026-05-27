@@ -1,0 +1,34 @@
+{
+  "expense": {
+    "fuel": ["diesel", "petrol", "adblue"],
+    "vehicle": ["repair", "tyres", "washing", "parts"],
+    "transport_fees": ["toll", "parking", "ferry", "tunnel"],
+    "travel": ["hotel", "overnight", "travel_expense"],
+    "meals": ["food"],
+    "hospitality": ["hospitality"],
+    "insurance": ["vehicle_insurance", "business_insurance"],
+    "software": ["saas", "ai_subscription", "api_costs", "domain", "hosting"],
+    "communications": ["phone", "internet"],
+    "bank_fees": ["account_fees", "platform_fees"],
+    "services": ["contractors", "freelancers"],
+    "office": ["office", "printing", "materials"],
+    "other": ["misc"]
+  },
+  "income": {
+    "transport_domestic": ["domestic_freight"],
+    "digital_services": ["digital_service"],
+    "digital_products": ["digital_product"],
+    "affiliate": ["affiliate", "commission"],
+    "other_income": ["other_income"]
+  },
+  "tax_treatments": [
+    "de_vat_19",
+    "de_vat_7",
+    "de_vat_0",
+    "reverse_charge_inbound",
+    "foreign_vat_non_deductible",
+    "no_vat",
+    "needs_review"
+  ]
+}
+
