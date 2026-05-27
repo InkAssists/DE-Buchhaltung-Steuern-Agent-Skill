@@ -1,6 +1,6 @@
 # Buchhaltungs- und Steuerhelfer
 
-Ein öffentlicher, installierbarer OpenClaw/Hermes Skill für deutsche Unternehmer, die ihre Buchhaltung mit KI strukturieren wollen, ohne private Daten im Skill zu veröffentlichen.
+Ein OpenClaw/Hermes Skill für Unternehmer, die ihre Buchhaltung mit KI strukturieren wollen.
 
 ## Voraussetzung
 
