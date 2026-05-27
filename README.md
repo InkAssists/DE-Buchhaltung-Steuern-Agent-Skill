@@ -2,6 +2,10 @@
 
 Ein öffentlicher, installierbarer Skill für deutsche Unternehmer, die ihre Buchhaltung mit KI strukturieren wollen, ohne private Daten im Skill zu veröffentlichen.
 
+## Voraussetzung
+
+- gog muss verfügbar und für Gmail, Drive und Sheets eingerichtet sein, wenn du den Skill mit echten Google-Daten nutzen willst.
+
 ## Was der Skill macht
 
 - Belege, Einnahmen, Ausgaben und andere Buchungen erfassen
@@ -16,6 +20,7 @@ Ein öffentlicher, installierbarer Skill für deutsche Unternehmer, die ihre Buc
 - Einnahmen- und Ausgabenlisten
 - Monatsweise Ledger-Daten
 - Unterstützende Dokumente wie Rechnungen oder Nachweise
+- Zugriff auf die passenden gog-Dienste für Gmail, Drive und Sheets
 
 ## Wichtig
 

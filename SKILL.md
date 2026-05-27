@@ -7,6 +7,10 @@ description: Öffentlicher Buchhaltungs- und Steuerhelfer für deutsche Unterneh
 
 Use this skill for Buchhaltung, Belegarchivierung und ELSTER-Vorbereitung für deutsche Unternehmer.
 
+## Prerequisites
+
+- gog must be available if you want to connect to Gmail, Drive, or Sheets.
+
 ## When to use
 
 - Belege, Einnahmen, Ausgaben und Buchungsmonate erfassen
@@ -14,6 +18,7 @@ Use this skill for Buchhaltung, Belegarchivierung und ELSTER-Vorbereitung für d
 - Einen Monat für ELSTER aufbereiten
 - Belege und unterstützende Dokumente archivieren, ohne private Ordner-IDs oder Kontodaten offenzulegen
 - Öffentliche Vorlagen und Prüfregeln für Buchhaltung und Steuerhilfe nutzen
+- gog für Gmail, Drive und Sheets verwenden, wenn echte Google-Daten eingebunden werden
 
 ## Use only public-safe data
 
