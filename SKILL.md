@@ -5,13 +5,14 @@ description: Public bookkeeping and ELSTER prep helper for sanitized ledgers, re
 
 # Finance V1 Public
 
-Use this skill for sanitized bookkeeping workflows and ELSTER preparation.
+Use this skill for sanitized bookkeeping workflows, document archiving, and ELSTER preparation.
 
 ## When to use
 
 - Classifying receipts, ledger rows, and booking months
 - Reviewing VAT treatment and review status
 - Summarizing a month for ELSTER prep
+- Archiving receipts and supporting documents without exposing private folder IDs or account data
 - Preparing public-friendly bookkeeping templates and checks
 
 ## Use only public-safe data
@@ -25,12 +26,14 @@ Use this skill for sanitized bookkeeping workflows and ELSTER preparation.
 2. Assign category, subcategory, tax treatment, and review status.
 3. Prefer needs_review over guessing when tax treatment is unclear.
 4. Summarize the ledger month with scripts/monthly_elster_summary.py.
-5. Inspect the checklist before finalizing anything that is ambiguous or high-risk.
+5. Archive receipts or supporting documents using the generic archiving workflow when needed.
+6. Inspect the checklist before finalizing anything that is ambiguous or high-risk.
 
 ## Key references
 
 - config/intake-rules.md for the intake flow and tax-treatment rules
 - config/review-checklist.md for common review checks
+- references/drive-archiving.md for the generic document archiving workflow
 - config/sheets-schema-v1.md for the column model
 - templates/ledger_v1.csv for the ledger format
 - templates/intake_message_template.md for intake prompts
@@ -42,4 +45,5 @@ Use this skill for sanitized bookkeeping workflows and ELSTER preparation.
 - Keep the public package free of personal data.
 - Do not infer missing tax facts from payment providers alone.
 - Use needs_review for unclear foreign VAT, reverse charge, hospitality, travel, or vehicle cases.
+- Keep archiving instructions generic in the public package; resolve any private destination mapping outside the skill.
 - Treat the script output as a prep artifact, not tax advice.
