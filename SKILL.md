@@ -1,11 +1,11 @@
 ---
-name: buchhaltungs-steuerhelfer
-description: Öffentlicher Buchhaltungs- und Steuerhelfer für deutsche Unternehmer mit sicheren, anonymisierten Ledgern, Belegen und Monatsauswertungen.
+name: bookkeeping-tax-helper
+description: Public bookkeeping and tax helper for German entrepreneurs with safe, anonymized ledgers, receipts, and monthly summaries.
 ---
 
-# Buchhaltungs- und Steuerhelfer
+# Bookkeeping and Tax Helper
 
-Use this OpenClaw/Hermes skill for Buchhaltung, Belegarchivierung und ELSTER-Vorbereitung für deutsche Unternehmer.
+Use this OpenClaw/Hermes skill for bookkeeping, receipt archiving, and ELSTER preparation for German entrepreneurs.
 
 ## Prerequisites
 
@@ -13,12 +13,12 @@ Use this OpenClaw/Hermes skill for Buchhaltung, Belegarchivierung und ELSTER-Vor
 
 ## When to use
 
-- Belege, Einnahmen, Ausgaben und Buchungsmonate erfassen
-- VAT-/USt-Behandlung und Review-Status prüfen
-- Einen Monat für ELSTER aufbereiten
-- Belege und unterstützende Dokumente archivieren, ohne private Ordner-IDs oder Kontodaten offenzulegen
-- Öffentliche Vorlagen und Prüfregeln für Buchhaltung und Steuerhilfe nutzen
-- gog für Gmail, Drive und Sheets verwenden, wenn echte Google-Daten eingebunden werden
+- Capture receipts, income, expenses, and booking months
+- Review VAT and tax treatment
+- Prepare a month for ELSTER
+- Archive receipts and supporting documents without exposing private folder IDs or account data
+- Use public templates and review rules for bookkeeping and tax prep
+- Use gog for Gmail, Drive, and Sheets when real Google data is involved
 
 ## Use only public-safe data
 
