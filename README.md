@@ -16,12 +16,21 @@ It intentionally does not contain:
 - customer or vendor names from private records
 - Google Sheet IDs or other live integration secrets
 
+## License
+
+This repository is published under the MIT License. See [LICENSE](LICENSE).
+
 ## Structure
 
 - config/ - categories, intake rules, review checklist, and sheet schema
 - templates/ - CSV and markdown templates
 - reports/ - human-readable report notes
 - scripts/ - local helper scripts
+
+## GitHub
+
+- A basic CI workflow lives in [.github/workflows/ci.yml](.github/workflows/ci.yml).
+- The workflow only checks the public helper script against synthetic data.
 
 ## Quick Start
 
@@ -47,4 +56,3 @@ Optional output file:
 - This is a working template, not tax advice.
 - The repository is designed so that the published version stays free of personal data.
 - If you add real data locally, make sure it remains ignored before publishing.
-

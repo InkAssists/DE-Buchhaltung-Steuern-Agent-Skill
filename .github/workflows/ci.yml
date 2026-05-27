@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Show script help
+        run: python3 scripts/monthly_elster_summary.py --help
+
+      - name: Run synthetic ledger check
+        run: |
+          cat > /tmp/finance-v1-public-ledger.csv <<'CSV'
+          receipt_id,entry_type,receipt_date,booking_month,counterparty,description,main_category,sub_category,gross_amount,net_amount,tax_amount,tax_rate,tax_treatment,currency,country,payment_method,file_path,review_status,business_purpose,trip_route,vehicle_reference,hospitality_participants,hospitality_occasion,invoice_number,customer_name,notes
+          R-001,expense,2026-04-18,2026-04,Example Supplier,Cloud subscription,software,saas,11.90,10.00,1.90,19,de_vat_19,EUR,DE,card,private/example.pdf,manually_checked,Business use,,,,"",INV-001,,Synthetic test row
+          R-002,income,2026-04-20,2026-04,Example Customer,Consulting income,services,consulting,1190.00,1000.00,190.00,19,de_vat_19,EUR,DE,bank_transfer,private/example2.pdf,auto_logged,Business income,,,,"",INV-002,Example Customer,Synthetic test row
+          CSV
+          python3 scripts/monthly_elster_summary.py --ledger /tmp/finance-v1-public-ledger.csv --month 2026-05
